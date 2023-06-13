@@ -1,0 +1,134 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "ChartRangeSelector"
+        },
+        "position": {
+          "height": 135,
+          "width": 400,
+          "x": 19,
+          "y": 21
+        },
+        "props": {
+          "data": [
+            {
+              "Temperature": 52,
+              "time": 1560469431423
+            },
+            {
+              "Temperature": 18,
+              "time": 1560469432423
+            },
+            {
+              "Temperature": 26,
+              "time": 1560469433423
+            },
+            {
+              "Temperature": 63,
+              "time": 1560469434423
+            },
+            {
+              "Temperature": 65,
+              "time": 1560469435423
+            },
+            {
+              "Temperature": 12,
+              "time": 1560469436423
+            },
+            {
+              "Temperature": 61,
+              "time": 1560469437423
+            },
+            {
+              "Temperature": 60,
+              "time": 1560469438423
+            },
+            {
+              "Temperature": 58,
+              "time": 1560469439423
+            },
+            {
+              "Temperature": 1,
+              "time": 1560469440423
+            }
+          ],
+          "selectedRange": {
+            "end": {
+              "$": [
+                "ts",
+                0,
+                1686638937869
+              ],
+              "$ts": 1560469437723
+            },
+            "start": {
+              "$": [
+                "ts",
+                0,
+                1686638937869
+              ],
+              "$ts": 1560469434123
+            }
+          }
+        },
+        "type": "ia.chart.chartrangeselector"
+      },
+      {
+        "meta": {
+          "name": "PieChart"
+        },
+        "position": {
+          "height": 375,
+          "rotate": {
+            "anchor": "0% 25%"
+          },
+          "width": 600,
+          "x": 57,
+          "y": 233
+        },
+        "props": {
+          "colors": [
+            "#3366CC",
+            "#EC4B3D",
+            "#4FC86C",
+            "#00A9C6",
+            "#E69300"
+          ],
+          "data": [
+            {
+              "count": 36,
+              "flavor": "Pumpkin"
+            },
+            {
+              "count": 17,
+              "flavor": "Pecan"
+            },
+            {
+              "count": 14,
+              "flavor": "Apple"
+            },
+            {
+              "count": 10,
+              "flavor": "Sweet Potato"
+            },
+            {
+              "count": 9,
+              "flavor": "Chocolate"
+            }
+          ],
+          "title": "Favorite Pie Flavors"
+        },
+        "type": "ia.chart.pie"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}
